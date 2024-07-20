@@ -196,6 +196,7 @@ void main()
         rotationMatrixY[1] = vec3(0.0, 1.0, 0.0);
         rotationMatrixY[2] = vec3(-sin(rotation), 0.0, cos(rotation));
         mat3 rotationMatrixZ;
+        // 23.5(earth's tilt) / 90degrees * p/2 (to make rotation at 23.5)
         rotationMatrixZ[0] = vec3(cos(0.41), -sin(0.41), 0.0);
         rotationMatrixZ[1] = vec3(sin(0.41), cos(0.41), 0.0);
         rotationMatrixZ[2] = vec3(0.0, 0.0, 1.0);
