@@ -1,4 +1,4 @@
-#
+
 directory=$(pwd)
 name='kunutza_destroyer2_raylib'
 game_dir="$directory/$name"
